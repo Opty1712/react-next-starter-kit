@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf ./.next ./.linaria-cache",
+    "clean": "rimraf ./.next ./.linaria-cache ./coverage",
     "build": "yarn clean && next build",
     "dev": "yarn clean && next",
     "start": "next start",
